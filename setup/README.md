@@ -8,7 +8,7 @@
 ```
 diskutil list #找到插入的sd卡
 diskutil umountDisk /dev/disk1  #umount sd卡
-sudo dd if=ArchLinuxARM-2014.06-rpi.img of=/dev/disk1  bs=1M  #烧录
+sudo dd if=wheezy-raspbian.img of=/dev/disk1  bs=1M  #烧录
 ```
 放回sd卡,接电就OK
 
